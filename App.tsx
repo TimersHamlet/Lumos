@@ -9,17 +9,15 @@
  */
 
 import React from 'react';
-import IndexPage from './src/views/home';
+import IndexPage from './src/views/index';
 import {SafeAreaView, StyleSheet} from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
   return (
-    <>
-      <SafeAreaView style={styles.container}>
-        <IndexPage />
-      </SafeAreaView>
-    </>
+    <SafeAreaView style={styles.container}>
+      <IndexPage />
+    </SafeAreaView>
   );
 };
 
